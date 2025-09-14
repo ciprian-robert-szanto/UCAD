@@ -1,0 +1,11 @@
+git+https://github.com/facebookresearch/segment-anything.git
+torch
+cuda-python
+timm==0.6.7
+click
+faiss-gpu-cu12
+scipy
+scikit-learn
+imgaug
+numpy<2.0.0
+matplotlib-inline
