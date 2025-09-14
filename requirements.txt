@@ -1,6 +1,6 @@
 git+https://github.com/facebookresearch/segment-anything.git
-torch
-cuda-python
+torch>=1.12
+cuda-python>=11.3
 timm==0.6.7
 click
 faiss-gpu-cu12
