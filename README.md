@@ -1,6 +1,6 @@
 # UCAD for MVTec LOCO AD dataset
 
-![](figs/pipeline.png)
+![](UCAD/figs/pipeline.png)
 
 
 Offical code for *Unsupervised Continual Anomaly Detection with Contrastively-learned Prompt* in AAAI-2024 [[paper link]](https://ojs.aaai.org/index.php/AAAI/article/view/28153) [[github link]](https://github.com/shirowalker/UCAD)
