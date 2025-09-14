@@ -408,7 +408,6 @@ def run(
 
         LOGGER.info("\n\n-----\n")
     # Inference
-    '''
     for dataloader_count, dataloaders in enumerate(list_of_dataloaders):
         LOGGER.info(
             "Evaluating dataset [{}] ({}/{})...".format(
@@ -506,7 +505,6 @@ def run(
             print('current task:{}/test task:{}, image_auc:{}, pixel_auc:{}, image_ap:{}, pixel_ap:{}, pixel_pro:{}, time_cost:{}'.format
                         (dataloader_count+1,len(list_of_dataloaders),auroc,full_pixel_auroc,img_ap,pixel_ap,pixel_pro,time_cost))
             
-    '''
     # Store all results and mean scores to a csv-file.
     # limited result
     print('Average result with limited')
